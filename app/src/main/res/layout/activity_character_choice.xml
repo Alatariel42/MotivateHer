@@ -10,4 +10,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.lsiegel.pearlhacks2.CharacterChoice">
 
+    <Button android:id="@+id/uploadbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center|top"
+        android:background="#060304"
+        android:textColor="#f9ed01"
+        android:textSize= "20pt"
+        android:onClick= "addImage"
+        android:text="Upload new image"
+        />
+    <Button android:id="@+id/choosebutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center|bottom"
+        android:background="#060304"
+        android:textColor="#f9ed01"
+        android:layout_alignParentBottom="true"
+        android:textSize= "20pt"
+        android:onClick= "chooseImage"
+        android:text="Choose image"
+        />
 </RelativeLayout>
